@@ -1,0 +1,4 @@
+mossrose:
+  name: example
+  discovery-zk: 192.168.5.99
+  enable-ui: true
