@@ -5,7 +5,7 @@ import com.jiuxian.mossrose.job.SimpleJob;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-@Job(id = "SimpleExampleJob", cron = "0 * * * * ?", group = "example")
+@Job(id = "SimpleExampleJob", cron = "0/5 * * * * ?", group = "example")
 public class SimpleExampleJob implements SimpleJob {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(SimpleExampleJob.class);
