@@ -14,6 +14,7 @@ public class StreamingExampleJob implements StreamingJob<String, Integer> {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(StreamingExampleJob.class);
 
+	// 用于模拟一个数据源
 	private static final List<String> LIST = Lists.newArrayList("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
 
 	@Override
