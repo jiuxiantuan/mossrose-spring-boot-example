@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 import com.google.common.collect.Lists;
 import com.jiuxian.mossrose.job.MapReduceJob;
 
-@Job(id = "MapReduceExampleJob", cron = "0/20 * * * * ?", group = "example")
+@Job(id = "MapReduceExampleJob", cron = "0/30 * * * * ?", group = "example")
 public class MapReduceExampleJob implements MapReduceJob<Integer, Integer> {
 
 	private static final Logger LOGGER = LoggerFactory.getLogger(MapReduceExampleJob.class);

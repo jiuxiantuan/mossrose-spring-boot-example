@@ -34,12 +34,7 @@
 		<dependency>
 			<groupId>com.jiuxian</groupId>
 			<artifactId>mossrose-spring-boot-starter</artifactId>
-			<version>1.1.1-RELEASE</version>
-		</dependency>
-		<dependency>
-			<groupId>com.jiuxian</groupId>
-			<artifactId>mossrose</artifactId>
-			<version>2.4.1-RELEASE</version>
+			<version>1.2.1-RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.commons</groupId>
@@ -54,6 +49,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>mossrose-spring-boot-example</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
